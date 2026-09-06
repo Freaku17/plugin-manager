@@ -14,6 +14,18 @@ import urllib.request
 import threading
 import random
 
+__version__ = "1.1.4"
+__author__ = "Freaku"
+
+plugman = dict(
+    description="Translate yours/others chat. Just click on the message to translate them. Open Plugin Settings/Double click 'Trans' button to open translation settings. Compatible with other PW mods (like advanced_party_window)",
+    external_url="https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    authors=[
+        {"name": __author__, "email": "", "discord": "freakyyyy"}
+    ],
+    version=__version__,
+)
+
 show_translate_result = True
 config = babase.app.config
 
